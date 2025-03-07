@@ -1,7 +1,7 @@
 
 ---
 
-# User CRUD Application (v1.0.0)
+# User CRUD Application
 
 This repository contains the source code and instructions for running a **User CRUD Application** using Docker. The application listens on port `3000` by default but can be mapped to any host port during runtime.
 
