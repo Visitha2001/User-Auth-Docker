@@ -1,5 +1,6 @@
 "use client";
 
+import Link from 'next/link';
 import React, { useState } from 'react';
 
 const Login: React.FC = () => {
@@ -60,7 +61,7 @@ const Login: React.FC = () => {
           </button>
         </form>
         <div className="text-center">
-          <a href="/" className="link link-primary">Don't have an account? Register</a>
+          <Link href="/" className="link link-primary">Don&apos;t have an account? Register</Link>
         </div>
       </div>
     </div>
