@@ -1,9 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-interface HeaderProps {}
-
-const Header: React.FC<HeaderProps> = () => {
+const Header: React.FC = () => {
   return (
     <div className="navbar bg-gray-900 shadow-sm px-3">
         <div className="navbar-start">
